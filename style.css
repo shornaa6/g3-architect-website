@@ -1,4 +1,13 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
 
+/* container for all */
+.container{
+ max-width: 1200px;
+ margin: 0px auto;
+}
 .open-sans-font {
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
@@ -6,8 +15,16 @@
     font-style: normal;
   }
 
+  /* h3 */
+  .brand{
+    font-weight: 700;
+    font-size: 3rem;
+  }
+
+  /* navbar releted style */
   .navbar{
     display: flex;
+    align-items: center;
   }
 
   .display-flex{
@@ -39,5 +56,38 @@
   }
 
   .bg-light{
-    background-color: #332c2c;
+    background-color: #f5d8d8;
+  }
+
+  .banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .banner-title{
+    font-weight: 700px;
+    font-size: 4rem;
+  }
+
+  .btn-primary{
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 50px;
+  }
+
+  .banner-image{
+    width: 100%;
+  }
+
+  @media screen and (max-width: 576px){
+    .navbar, .nav-links{
+      flex-direction: column;
+    }
+    
   }
