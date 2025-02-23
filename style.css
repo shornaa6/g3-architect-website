@@ -169,6 +169,33 @@ filter: grayscale(100%);
 }
 
 
+/* feature enjoy */
+#section-feature-title{
+  border-left: 5px solid #FF900E;
+  padding-left: 30px;
+}
+
+.feature-card{
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 4px 30px 0 rgb(73, 68, 68);
+  margin-bottom: 20px;
+  width: 400px;
+  
+}
+.feature-card .section-title{
+  font-size: 1.25rem;
+  font-weight: 600;
+ 
+}
+.features-1{
+  gap: 140px;
+  display: flex;
+}
+
+.section-img{
+}
+
   @media screen and (max-width: 576px){
     .navbar, 
     .nav-links,
