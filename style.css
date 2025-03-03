@@ -214,6 +214,15 @@ main>section {
   width: 100%;
 }
 
+
+/* footer */
+.footer{
+  background-color: pink;
+  font-size: 1.25rem;
+  font-weight: 700px;
+  text-align: center;
+  margin-top: 50px;
+}
 @media screen and (max-width: 576px) {
 
   .navbar,
@@ -240,11 +249,18 @@ main>section {
     gap: 40px;
     margin-left: 100px;
   }
+
+  #experiance-badge{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
 }
+
 
 /* for rotate . mediam size device*/
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  .teams {
+  .teams, 
+  .features-1{
     flex-direction: column;
   }
 
@@ -253,5 +269,9 @@ main>section {
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
     justify-items: center;
+  }
+  #experiance-badge{
+    margin-top: 20px;
+    margin-left: 20px;
   }
 }
