@@ -1,134 +1,138 @@
-body{
+body {
   margin: 0px;
   padding: 0px;
 }
 
-main > section
-{
+main>section {
   margin-top: 130px;
 }
+
 /* main{
   max-width: 1200px;
   margin: 0 auto;
 } */
 
 /* container for all */
-.container{
- max-width: 1200px;
- margin: 0px auto;
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
 }
+
 .open-sans-font {
-    font-family: "Open Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  /* h3 */
-  .brand{
-    font-weight: 700;
-    font-size: 3rem;
-  }
+/* h3 */
+.brand {
+  font-weight: 700;
+  font-size: 3rem;
+}
 
-  /* navbar releted style */
-  .navbar{
-    display: flex;
-    align-items: center;
-  }
+/* navbar releted style */
+.navbar {
+  display: flex;
+  align-items: center;
+}
 
-  .display-flex{
-    display: flex;
-  }
+.display-flex {
+  display: flex;
+}
 
-  .nav-item{
-    list-style: none;
-    margin-right: 30px;
-  }
+.nav-item {
+  list-style: none;
+  margin-right: 30px;
+}
 
-  .nav-links{
-    text-decoration: none;
-    font-weight: 500;
-  }
+.nav-links {
+  text-decoration: none;
+  font-weight: 500;
+}
 
-  /* navbar */
-  .navbar{
-    justify-content: space-between;
-  }
-  /* dark 2 */
-  .text-gray{
-    color: #424242;
-  }
+/* navbar */
+.navbar {
+  justify-content: space-between;
+}
 
-  /* dark03 */
-  .text-light-gray{
-    color: #727272;
-  }
+/* dark 2 */
+.text-gray {
+  color: #424242;
+}
 
-  .bg-light{
-    background-color: #f5d8d8;
-  }
+/* dark03 */
+.text-light-gray {
+  color: #727272;
+}
 
-  .banner-content{
-    max-width: 850px;
-    margin: 0 auto;
-    text-align: center;
-  }
+.bg-light {
+  background-color: #f5d8d8;
+}
 
-  .banner-title{
-    font-weight: 700px;
-    font-size: 4rem;
-  }
+.banner-content {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+}
 
-  .btn-primary{
-    background-color: #FF900E;
-    color: white;
-    padding: 20px 25px;
-    font-size: 1.25rem;
-    font-weight: 600;
-    border-radius: 5px;
-    border: none;
-    margin-bottom: 50px;
-  }
+.banner-title {
+  font-weight: 700px;
+  font-size: 4rem;
+}
 
-  .banner-image{
-    width: 100%;
-  }
+.btn-primary {
+  background-color: #FF900E;
+  color: white;
+  padding: 20px 25px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 50px;
+}
 
-  /* main */
+.banner-image {
+  width: 100%;
+}
 
-  .teams{
-    align-items: center;
-  }
+/* main */
 
-  .teams-img-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-  }
-  .features{
-    padding: 70px ;
-    max-width: 530px;
-  }
+.teams {
+  align-items: center;
+}
 
-.feature-title{
+.teams-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.features {
+  padding: 70px;
+  max-width: 530px;
+}
+
+.feature-title {
   font-size: 1.90rem;
   font-weight: 700;
 }
 
-.text-primary{
+.text-primary {
   color: #FF900E;
 }
 
-#Quick-list{
+#Quick-list {
   font-weight: 700px;
 }
 
 /* some fact releted style */
-.flex-container{
+.flex-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-.fact{
+
+.fact {
   border: 1px solid #FF900E;
   height: 240px;
   width: 240px;
@@ -138,100 +142,116 @@ main > section
   text-align: center;
 }
 
-.fact-number{
+.fact-number {
   font-size: 2.8rem;
   font-weight: 600;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
-.fact-name{
+.fact-name {
   font-size: 1.25rem;
   font-weight: 600;
   margin-top: 10px;
 }
 
 /* sponsors */
-.sponsors-info{
+.sponsors-info {
   max-width: 500px;
   margin: 50px auto;
   text-align: center;
 }
 
-.sponsors-companies{
+.sponsors-companies {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
 
-.sponsors-companies img{
-filter: grayscale(100%);
+.sponsors-companies img {
+  filter: grayscale(100%);
 }
 
 
 /* feature enjoy */
-#section-feature-title{
+#section-feature-title {
   border-left: 5px solid #FF900E;
   padding-left: 30px;
 }
 
-.feature-card{
+.feature-card {
   padding: 30px;
   border-radius: 5px;
   box-shadow: 0 4px 30px 0 rgb(73, 68, 68);
   margin-bottom: 20px;
   width: 400px;
-  
+
 }
-.feature-card .section-title{
+
+.feature-card .section-title {
   font-size: 1.25rem;
   font-weight: 600;
- 
+
 }
-.features-1{
+
+.features-1 {
   gap: 140px;
   display: flex;
 }
 
-.section-img{
+#experiance-badge {
+  padding: 45px 42px;
+  margin-top: -100px;
+  margin-left: -50px;
 }
 
-  @media screen and (max-width: 576px){
-    .navbar, 
-    .nav-links,
-    .teams{
-      flex-direction: column;
-    }
-    
-    .teams-img-container,
-    .flex-container,
-    .sponsors-companies
-    {
-      grid-template-columns: repeat(1, 1fr);
-    }
+#experiance-year {
+  font-size: 4rem;
+  font-weight: 700;
+}
 
-    .flex-container{
-      justify-items: center;
-      gap: 24px;
-    }
-    .sponsors-companies{
-    
-      justify-content: center;
-      gap: 40px;
-      margin-left: 100px;
-    }
+.featured-architect img {
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+
+  .navbar,
+  .nav-links,
+  .features-1,
+  .teams {
+    flex-direction: column;
   }
 
-  /* for rotate . mediam size device*/
-  @media screen  and (min-width: 576px) and (max-width: 992px) {
-    .teams{
-      flex-direction: column;
-    }
-    
-    .flex-container,
-    .sponsors-companies{
-      grid-template-columns: repeat(2, 1fr);
-      gap: 50px;
-      justify-items: center;
-    }    
+  .teams-img-container,
+  .flex-container,
+  .sponsors-companies {
+    grid-template-columns: repeat(1, 1fr);
   }
+
+  .flex-container {
+    justify-items: center;
+    gap: 24px;
+  }
+
+  .sponsors-companies {
+
+    justify-content: center;
+    gap: 40px;
+    margin-left: 100px;
+  }
+}
+
+/* for rotate . mediam size device*/
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .teams {
+    flex-direction: column;
+  }
+
+  .flex-container,
+  .sponsors-companies {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    justify-items: center;
+  }
+}
